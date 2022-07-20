@@ -19,7 +19,7 @@ public class Lt {
         lt.setLottoMax(max);
         lt.setLottoMin(min);
 
-        System.out.println(Arrays.toString(lt.Ltn()));
+        System.out.println(Arrays.toString(lt.Ltn())); // 디버그용
         System.out.println("나의 소지금은" + money + "입니다");
         Thread.sleep(1000);
         System.out.println("로또를 " + price + "원에 구매할려면 10이내의 수를 6자리 수를 입력하세요");
